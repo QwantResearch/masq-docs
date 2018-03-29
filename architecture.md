@@ -1,7 +1,19 @@
 
-# Masq Architecture
+# Architecture
 
 This document describes the different types of scenarios in which Masq can operate. By default, all data transmitted between devices is encrypted using [Perfect Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), independent of whether the Sync Server uses TLS or not. More cryptographic details can be found in the [Sync document](https://github.com/QwantResearch/masq-docs/blob/gh-pages/sync).
+
+## Terminology
+
+**Store** - program/service that stores and retrieves application data.
+
+**Peer** - client device (e.g. desktop computer, laptop, smartphone, tablet, etc.) that is under the user's physical control.
+
+**Application** - program that runs on the client. It may mean the same thing as *client* on specific devices like smartphones and tablets. It can be a native application or a Web app running the browser.
+
+**Store manager** - User Interface that manages pairing and sync preferences for a store.
+
+**Sync server** - A third-party server running a synchronisation service that connects multiple peers.
 
 ### Scenario 1 - multiple stores
 
