@@ -14,13 +14,13 @@ This document describes the different types of scenarios in which Masq can opera
 
 ## Terminology
 
-**Store** - program/service that stores and retrieves application data.
+**Peer** - a device (e.g. desktop computer, laptop, smartphone, tablet, etc.) that is under the user's physical control.
 
-**Peer** - client device (e.g. desktop computer, laptop, smartphone, tablet, etc.) that is under the user's physical control.
-
-**Application** - program that runs on the client. It may mean the same thing as *client* on specific devices like smartphones and tablets. It can be a native application or a Web app running the browser.
+**Store** - program/service that stores and retrieves application data. Think of it as a local database on the user's device.
 
 **Store manager** - User Interface that manages pairing and sync preferences for a store.
+
+**Application** - a native application or a Web app running the browser. In specific cases (i.e. smartphones/tablets) it may be directly considered as a *peer*.
 
 **Sync server** - A third-party server running a synchronisation service that connects multiple peers.
 
