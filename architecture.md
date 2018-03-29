@@ -3,6 +3,15 @@
 
 This document describes the different types of scenarios in which Masq can operate. By default, all data transmitted between devices is encrypted using [Perfect Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), independent of whether the Sync Server uses TLS or not. More cryptographic details can be found in the [Sync document](https://github.com/QwantResearch/masq-docs/blob/gh-pages/sync).
 
+
+## TOC
+
+### 1. [Terminology](#terminology)
+### 2. [Scenarios](#scenarios)
+* [Multiple stores](#scenario-1---multiple-stores)
+* [Store and client apps](#scenario-2---store-and-client-apps)
+* [No centralised store](#scenario-3---no-centralised-store)
+
 ## Terminology
 
 **Store** - program/service that stores and retrieves application data.
@@ -14,6 +23,8 @@ This document describes the different types of scenarios in which Masq can opera
 **Store manager** - User Interface that manages pairing and sync preferences for a store.
 
 **Sync server** - A third-party server running a synchronisation service that connects multiple peers.
+
+## Scenarios
 
 ### Scenario 1 - multiple stores
 
