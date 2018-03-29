@@ -1,7 +1,7 @@
 
-#Masq Architecture
+# Masq Architecture
 
-This document describes the different types of scenarios in which Masq can operate.
+This document describes the different types of scenarios in which Masq can operate. By default, all data transmitted between devices is encrypted using [Perfect Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), independent of whether the Sync Server uses TLS or not. More cryptographic details can be found in the [Sync document](https://github.com/QwantResearch/masq-docs/blob/gh-pages/sync).
 
 ### Scenario 1 - multiple stores
 
