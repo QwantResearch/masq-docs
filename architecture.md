@@ -26,6 +26,8 @@ This document describes the different types of scenarios in which Masq can opera
 
 ## Scenarios
 
+![Store - Store](https://qwantresearch.github.io/masq-docs/img/arch.svg)
+
 ### Scenario 1 - multiple stores
 
 This scenario fits personal computers and/or servers and it involves a centralised store. The store can be a standalone application that listens to incoming connections from local applications (either browser-based on native), and handles pairing and sync operations for all the apps. Typically, a Web app would use the `WebSocket` protocol to store and retrieve application data from a local store service listening on `localhost`. The store would then also use a `WebSocket` connection to synchronise changes with other (previously paired) devices using a *Sync Server*.
