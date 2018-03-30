@@ -29,7 +29,7 @@ This document describes the different types of scenarios in which Masq can opera
 
 ![Store - Store](https://qwantresearch.github.io/masq-docs/img/arch.png)
 
-Masq allow applications to store and synchronise data without relying on a cloud-based solution. It typically does this by offering on-device storage, either through a standalone (desktop) application that a user installs, or by relying on HTML5 storage APIs available in the browsers today.
+Masq allows applications to store and synchronise data without relying on a cloud-based solution. It typically does this by offering on-device storage, either through a standalone (desktop) application that a user installs, or by relying on HTML5 storage APIs available in the browsers today.
 
 The figure presented above showcases two peers that are synchronised through a dedicated sync service. The first peer consists of a desktop computer (any personal computer will do) while the second peer is a mobile device (a smartphone in this case). The sync data is secured in transit using two layers of encryption. One, connections to the *Sync service* use TLS by default. And two, data is encrypted on the device using [Perfect Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) before being sent over the wire. FPS is the same protocol that chat applications like Signal and WhatsApp use.
 
